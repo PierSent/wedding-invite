@@ -2477,3 +2477,130 @@ background: linear-gradient(135deg, #ff5ca2 0%, #a144f0 50%, #5e3ccf 100%);
 
 
 
+
+
+
+
+
+
+
+/* === Адаптация под мобильные устройства === */
+
+@media screen and (max-width: 736px) {
+  /* Меню иконок */
+  #nav {
+    flex-wrap: wrap;
+    gap: 0.5em;
+    padding: 0.5em 0;
+  }
+
+  #nav a {
+    font-size: 2em;
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    margin: 0;
+  }
+
+  #nav a span {
+    display: none;
+  }
+
+  /* Главная секция */
+  #main > .panel.intro header {
+    padding: 1.5em 1em !important;
+  }
+
+  #main > .panel.intro > img {
+    max-width: 90%;
+    margin-top: 1em;
+  }
+
+  /* Карта */
+  #map {
+    height: 250px;
+  }
+
+  /* Анкета гостя */
+  .guest-form-section h2 {
+    font-size: 1.4em;
+  }
+
+  .guest-form-section .subtitle {
+    font-size: 1em;
+  }
+
+  .form-button {
+    display: block;
+    font-size: 1.2em;
+    padding: 0.8em 1em;
+    margin: 1.5em auto 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  /* Расписание */
+  .schedule-item .time {
+    font-size: 1.3em;
+  }
+
+  .schedule-item .desc {
+    font-size: 1em;
+  }
+
+  /* Дресс-код */
+  .dress-desc, .dress-note {
+    font-size: 1em;
+  }
+
+  /* Заголовки */
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 736px) {
+  #nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 0.02em; /* Меньше расстояние между иконками */
+    padding: 0.1em 0.1em;
+    justify-content: flex-start;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  #nav a {
+    flex: 0 0 auto;
+    font-size: 1.7em;
+    width: 2.3em;
+    height: 2.3em;
+    line-height: 2.3em;
+    margin: 0;
+  }
+
+  #nav a span {
+    display: none;
+  }
+}
+
+
