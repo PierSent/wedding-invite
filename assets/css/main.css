@@ -2397,7 +2397,7 @@ background: linear-gradient(135deg, #ff5ca2 0%, #a144f0 50%, #5e3ccf 100%);
 
 
 .dress-note {
-  font-size: 1em;
+  font-size: 1.5em;
   color: #00aaff;
   line-height: 1.7;
 }
@@ -2592,7 +2592,7 @@ background: linear-gradient(135deg, #ff5ca2 0%, #a144f0 50%, #5e3ccf 100%);
   #nav a {
     flex: 0 0 auto;
     font-size: 1.7em;
-    width: 2.3em;
+    width: 1.6em;
     height: 2.3em;
     line-height: 2.3em;
     margin: 0;
